@@ -17,7 +17,7 @@ https://danaga.com
 </div>
 
 
-# 🖼️ 아키텍처
+# 🖼️ Project Architecture
 
 ![danaga 아키텍처](https://github.com/lsh96900410/itwill/assets/133841235/19f7efee-58c0-4a64-818d-1780a934a090)
 
