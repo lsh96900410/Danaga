@@ -17,7 +17,7 @@ https://danaga.com
 </div>
 
 
-# 🖼️ Project Architecture
+# 🖼️ Architecture
 
 ![danaga 아키텍처](https://github.com/lsh96900410/itwill/assets/133841235/19f7efee-58c0-4a64-818d-1780a934a090)
 
@@ -25,5 +25,7 @@ https://danaga.com
 
 ![danagafullimg](https://github.com/choliea/danaga/assets/133833132/57e25d7e-a957-4c63-b157-b3577a435fba)
 
+# Api 명세서
 
-### 화이팅입니다~
+
+# 
