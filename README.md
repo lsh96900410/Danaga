@@ -3,7 +3,7 @@
 어벤져스도 울고간 가격
 https://danaga.com
 
-## 팀원
+## 😀 팀원
 
 <div align="center">
 
@@ -17,7 +17,7 @@ https://danaga.com
 </div>
 
 
-# 아키텍처
+# 🖼️ 아키텍처
 
 ![danaga 아키텍처](https://github.com/lsh96900410/itwill/assets/133841235/19f7efee-58c0-4a64-818d-1780a934a090)
 
