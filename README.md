@@ -17,9 +17,9 @@ https://danaga.com
 </div>
 
 
-# 사용 기술
+# 아키텍처
 
-![Web App Reference Architecture](https://github.com/2023-05-JAVA-DEVELOPER-143/2023-05-JAVA-DEVELOPER-final-project-team3-avengers/assets/133833132/f55e300e-40ac-4bd8-b42a-dd8a98c0cf94)
+![danaga 아키텍처](https://github.com/lsh96900410/itwill/assets/133841235/19f7efee-58c0-4a64-818d-1780a934a090)
 
 
 ### 화이팅입니다~
