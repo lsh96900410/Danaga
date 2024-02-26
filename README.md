@@ -25,7 +25,31 @@ https://danaga.com
 
 ![다나가 erd](https://github.com/lsh96900410/Danaga/assets/133841235/7cb39da1-4563-403f-84c1-59c77b628c1f)
 
-# Api 명세서
+# 기능 별 순서도 
+
+###
+![장바구니 기능 Basic](https://github.com/lsh96900410/aaa/assets/133841235/4005cdbf-0530-4a06-a9b9-7ced19228944)
+
+###
+![장바구니 담기 로직v2](https://github.com/lsh96900410/aaa/assets/133841235/000ab59c-53d9-42f2-8b80-1552359fb18f)
+
+###
+![장바구니 보기 로직](https://github.com/lsh96900410/aaa/assets/133841235/08c65303-c1a4-42fd-938e-cd649c94ae69)
+
+###
+![장바구니 수량 변경 및 삭제 로직](https://github.com/lsh96900410/aaa/assets/133841235/ac233530-e63b-46a1-afe1-3cffa651706b)
+
+### 장바구니 옵션 변경 
+![장바구니 옵션 변경 로직](https://github.com/lsh96900410/aaa/assets/133841235/2ea33fa3-061d-4e76-b2fb-7fb091e999ff)
+###
+![옵션변경](https://github.com/lsh96900410/aaa/assets/133841235/5eb0f73a-8b1e-4d1b-a03c-972bd3556d5f)
+
+### 비회원 -> 회원 
+![로그인 기능 -1](https://github.com/lsh96900410/aaa/assets/133841235/a84e9491-72ba-42ba-a183-ca269fef6399)
+###
+![로그인 장바구니-1](https://github.com/lsh96900410/aaa/assets/133841235/cd33d366-ab87-400c-86e0-fa1ef847bbc4)
 
 
-# 
+
+
+
