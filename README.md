@@ -23,7 +23,7 @@ https://danaga.com
 
 # ERD
 
-![danagafullimg](https://github.com/choliea/danaga/assets/133833132/57e25d7e-a957-4c63-b157-b3577a435fba)
+![다나가 erd](https://github.com/lsh96900410/Danaga/assets/133841235/7cb39da1-4563-403f-84c1-59c77b628c1f)
 
 # Api 명세서
 
