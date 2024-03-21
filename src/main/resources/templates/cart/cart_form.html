@@ -281,9 +281,8 @@ $(document).ready(function() {
 		return finaltotalsalePrice;
 	}
 	
-   	console.log(calculateTotalPrice());
+   	   	
    	
-   	console.log(calculateSalePrice());
 
     // 초기 제품 총 결제 금액 설정
     let finaltotalPrice = calculateTotalPrice();
@@ -346,7 +345,7 @@ function checkValue() {
        }
    }
    // 배열에 추가된 객체들을 출력
-   console.log("선택된 데이터: ", checkedData);
+   
    $.ajax({
 		url : "/order/cart_check_Stock",
 		type : "post",
@@ -354,7 +353,7 @@ function checkValue() {
 		data : JSON.stringify(checkedData),
 		success : function(response) {
            if(response=='1'){
-        	   console.log(response)
+        	   
         	   $.ajax({
         			url : "/cart_order_form",
         			type : "post",
@@ -362,11 +361,11 @@ function checkValue() {
         			data : JSON.stringify(orderData),
         			success : function(response) {
         	     	window.location.href = "/order_save_form"; // 이동할 페이지 URL
-        	           console.log(checkedData);
+        	           
         	       }
         		});
            }else if(response=='주문한수량보다 재고가 없습니다.'){
-        	   console.log(response)
+        	   
         	   alert(response);
            }
        },
@@ -397,9 +396,9 @@ $(".checkbox").click(function() {
 /* 수량변경 (테스트완료)  */
 function getSelectValue(obj) {
 		let selectosId = obj.dataset.id;
-		console.log(selectosId);
+		
 		let selectedValue = $(obj).val();
-		console.log(selectedValue);
+		
 		
 		let data = {
 			qty : selectedValue,
@@ -411,9 +410,7 @@ function getSelectValue(obj) {
 			contentType : 'application/json',
 			data : JSON.stringify(data),
 			success : function(response) {
-				console.log(data);
-				console.log('response' + response.qty)
-				console.log('>>>>'+response.optionSetId)
+				
 				location.reload();
 			}
 			
@@ -431,7 +428,7 @@ function deleteCart(obj) {
 	if(confirm_val) {
 		let deleteArr = new Array();
 			deleteArr.push($(obj).attr("data-osId"));
-			console.log(deleteArr);
+			
 		$.ajax({
 			url : "/cart/deletecart",
 			type : "delete",
@@ -453,19 +450,19 @@ function selectAlldelete() {
 		 $("input[class='checkbox']:checked").each(function() {
 			checkArr.push($(this).attr("data-selectid")); 
 		 });
-		 console.log(checkArr);
+		
 					
 		$.ajax({
 			url : "/cart/deletecart",
 			type : "delete",
 			data : { idlist : checkArr },
 			success : function(e) {
-				console.log(e)
+				
 				alert('삭제완료');
 				location.reload();
 			},
 			error : function(){
-			console.log('dddddddddd')
+			
 			}
 		});
 	} 
@@ -496,7 +493,7 @@ function selectOption(elseOptionSets, osId) {
    }
    	  let lastupdataId = osId;
   	  $("#modalSelectbox").change(function() {
-  		  console.log($(this).val());
+  		 
 	  		lastupdataId = $(this).val();
 	  });
 	  $("#modalsave").click(function() {
@@ -512,7 +509,7 @@ function selectOption(elseOptionSets, osId) {
 			 contentType: 'application/json',
 			 data: JSON.stringify(data),
 			 success : function(response) {
-				 console.log(response)
+				 
 				if(response==2100){
 					$('#exampleModal').modal('hide');
 					if(alert('이미 장바구니에 5개이상존재합니다. ')){
