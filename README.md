@@ -28,11 +28,17 @@
 
 ![다나가 erd](https://github.com/lsh96900410/Danaga/assets/133841235/7cb39da1-4563-403f-84c1-59c77b628c1f)
 
-# 구현 [ basic -> 옵션변경 -> 비회원 기록 저장 ]
+# 구현 
+| 기본 기능 |
+|:--------:|
+|![장바구니 기본](https://github.com/lsh96900410/lsh96900410/assets/133841235/313c1dd8-5be8-4432-824a-2c0bcd5ad5ce)|
+| 솔루션 -옵션 변경 |
+|![옵션변경](https://github.com/lsh96900410/lsh96900410/assets/133841235/4fddaf73-8c26-4cff-9aab-061e061a7215)|
+| 솔루션 - 비회원 기록 유지 (Sequence Diagram)|
+|![캡처5](https://github.com/lsh96900410/lsh96900410/assets/133841235/fbae0c32-349b-4457-a94b-3a5102ee2840)|
+|![로그인 장바구니](https://github.com/lsh96900410/lsh96900410/assets/133841235/bc9a8f18-4aa1-4de0-8a60-5fe5369399d9)|
 
-![장바구니 기본](https://github.com/lsh96900410/lsh96900410/assets/133841235/313c1dd8-5be8-4432-824a-2c0bcd5ad5ce)
-![옵션변경](https://github.com/lsh96900410/lsh96900410/assets/133841235/4fddaf73-8c26-4cff-9aab-061e061a7215)
-![로그인 장바구니](https://github.com/lsh96900410/lsh96900410/assets/133841235/bc9a8f18-4aa1-4de0-8a60-5fe5369399d9)
+
 
 
 
